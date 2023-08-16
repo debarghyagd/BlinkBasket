@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthly Report</title>
+    <style>
+        .header {
+            padding: 20px;
+            padding-left: 45%;
+            background-color: green;
+            color: white;
+        }
+        .details {
+            font-size: large;
+            padding-left: 1%;
+            width: 50%;
+        }
+        .details tr:nth-child(odd) {
+            background-color: #f2f2f2;
+        }
+        .orders {
+            width: 100%;
+            text-align: left;
+            padding-left: 1%;
+        }
+        .orders tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .orders th{
+            background-color: rgba(64, 131, 64, 0.507);
+            padding: 10px;
+            
+        }
+        .orders td {
+            padding: 10px;
+        }
+        .orders li {
+            list-style-type: none
+        }
+    </style>
+</head>
+<body>
+    <h1 class="header">BlinkBasket</h1>
+    <h2 style="padding-left: 1%; background-color: rgba(0, 128, 0, 0.5);">Detail</h2>
+    <table class="details">
+        <tr>
+            <td><strong>Username:</strong></td>
+            <td>dummytest</td>
+        </tr>
+        <tr>
+            <td><strong>First Name:</strong></td>
+            <td>John</td>
+        </tr>
+        <tr>
+            <td><strong>Last Name:</strong></td>
+            <td>Doe</td>
+        </tr>
+        <tr>
+            <td><strong>Email:</strong></td>
+            <td>debarghya.gd@gmail.com</td>
+        </tr>
+        <tr>
+            <td><strong>Phone Number:</strong></td>
+            <td>9830184155</td>
+        </tr>
+        <tr>
+            <td><strong>Address:</strong></td>
+            <td>174/1 N.S.C. BOSE ROAD, FLAT-3B</td>
+        </tr>
+    </table>
+    <br>
+    <h2 style="padding-left: 1%; background-color: rgba(0, 128, 0, 0.5);">Orders</h2>
+    <table class="orders">
+        <tr>
+			<th>ID</th>
+			<th>Date</th>
+			<th>Products</th>
+			<th>Total</th>
+        </tr>
+        <tr>
+			<td>10</td>
+			<td>07/08/2023 22:29:13</td>
+			<td>
+                <li>1 x Carrots</li>
+                <li>1 x Chicken</li>
+            </td>
+			<td>Rs. 200</td>
+        </tr>
+        <tr>
+			<td>9</td>
+			<td>07/08/2023 22:27:47</td>
+			<td>
+                <li>6 x Bread</li>
+            </td>
+			<td>Rs. 600</td>
+        </tr>
+        <tr>
+			<td>4</td>
+			<td>07/08/2023 15:24:03</td>
+			<td>
+                <li>4 x Cheese</li>
+            </td>
+			<td>Rs. 400</td>
+        </tr>
+        <tr>
+			<td>5</td>
+			<td>07/08/2023 15:24:03</td>
+			<td>
+                <li>2 x Cheese</li>
+                <li>2 x Milk</li>
+            </td>
+			<td>Rs. 400</td>
+        </tr>
+        <tr>
+            <th colspan="3">Total:</th>
+            <td style="background-color: rgba(0, 128, 0, 0.5);">Rs. 1600</td>
+		</tr>
+    </table>
+    <br>
+    <h2 style="padding-left: 1%; background-color: rgba(0, 128, 0, 0.5);">Stats</h2>
+    <table class="orders">
+        <tr>
+            <th>Category</th>
+            <th>Expense</th>
+        </tr>
+        <tr>
+            <td>Produce</td>
+            <td>6.25 %</td>
+        </tr>
+        <tr>
+            <td>Dairy</td>
+            <td>50.0 %</td>
+        </tr>
+        <tr>
+            <td>Meat</td>
+            <td>6.25 %</td>
+        </tr>
+        <tr>
+            <td>Baked</td>
+            <td>37.5 %</td>
+        </tr>
+    </table>
+    <br>
+    <table class="orders">
+        <tr>
+            <th>Product</th>
+            <th>Expense</th>
+        </tr>
+        <tr>
+			<td>Lentils</td>
+			<td>Rs. 0</td>
+        </tr>
+        <tr>
+			<td>Milk</td>
+			<td>Rs. 200</td>
+        </tr>
+        <tr>
+			<td>Chicken</td>
+			<td>Rs. 100</td>
+        </tr>
+        <tr>
+			<td>Bread</td>
+			<td>Rs. 600</td>
+        </tr>
+        <tr>
+			<td>Fish</td>
+			<td>Rs. 0</td>
+        </tr>
+        <tr>
+			<td>Cheese</td>
+			<td>Rs. 600</td>
+        </tr>
+        <tr>
+			<td>Peas</td>
+			<td>Rs. 0</td>
+        </tr>
+        <tr>
+			<td>Beans</td>
+			<td>Rs. 0</td>
+        </tr>
+        <tr>
+			<td>Carrots</td>
+			<td>Rs. 100</td>
+        </tr>
+        <tr>
+			<td>Brownies</td>
+			<td>Rs. 0</td>
+        </tr>
+    </table>
+</body>
+</html>

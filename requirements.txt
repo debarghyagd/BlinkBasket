@@ -1,0 +1,12 @@
+Flask
+Flask-SQLAlchemy
+Flask-RESTful
+Flask-Security-Too
+bcrypt
+redis
+celery[redis]
+Flask-Caching
+pdfkit
+NumPy
+Pandas
+matplotlib

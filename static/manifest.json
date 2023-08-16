@@ -1,0 +1,32 @@
+{
+	"short_name": "Grocerry",
+	"name": "Grocerry: PWA?",
+	"icons": [
+		{
+			"src": "/static/images/android-chrome-192x192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/static/images/android-chrome-512x512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"id": "/signin",
+	"start_url": "/signin",
+	"background_color": "#F8F9FA",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#198754",
+	"description": "Online grocery shopping",
+	"screenshots": [
+		{
+			"src": "/static/images/screenshot.png",
+			"type": "image/png",
+			"sizes": "1920x1080",
+			"form_factor": "wide"
+		}
+	]
+}
+  
